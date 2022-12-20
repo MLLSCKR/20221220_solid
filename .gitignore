@@ -3,3 +3,6 @@
 
 ## python ##
 *.pyc
+
+## scanner work ##
+.scannerwork
