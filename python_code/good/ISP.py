@@ -98,7 +98,8 @@ def main():
         break_manager.set_worker(Robot())
         break_manager.lunch_break()
     except NotImplementedError:
-    
+        print("not implemented error")
+        
 if __name__ == '__main__':
     main()
 

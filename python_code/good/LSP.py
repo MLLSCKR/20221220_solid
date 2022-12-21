@@ -34,7 +34,7 @@ def main():
         prisoner.walk_east(-3)
 
     except NotImplementedError:
-        pass
+        print("not implemented error")
     
     print("The location of the prison: {}".format(prisoner.PRISON_LOCATION))
     print("The current position of the prisoner: {}".format(prisoner.position))
