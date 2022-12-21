@@ -35,7 +35,7 @@ class MyContent(IContent):
     def __init__(self, content):
         self.content = content
 
-    def getString(self):
+    def get_string(self):
         return "<MyML>{}</MyML>".format(self.content)
 
 class Email(IEmail):

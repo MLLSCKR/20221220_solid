@@ -27,17 +27,18 @@ class Email(IEmail):
         self.__receiver = None
         self.__content = None
 
-    def set_sender(self, sender):
-        if self.protocol == 'IM':
-            self.__sender = ''.join(["I'm ", sender])
-        else:
-            self.__sender = sender
-
     def set_receiver(self, receiver):
         if self.protocol == 'IM':
             self.__receiver = ''.join(["I'm ", receiver])
         else:
             self.__receiver = receiver
+
+
+    def set_sender(self, sender):
+        if self.protocol == 'IM':
+            self.__sender = ''.join(["I'm ", sender])
+        else:
+            self.__sender = sender
 
     def set_content(self, content):
         if self.content_type == 'MyML':
