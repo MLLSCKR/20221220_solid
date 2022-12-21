@@ -99,7 +99,6 @@ def main():
         break_manager.lunch_break()
     except NotImplementedError:
     
-    
 if __name__ == '__main__':
     main()
 

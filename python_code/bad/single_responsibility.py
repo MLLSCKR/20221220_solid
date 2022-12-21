@@ -33,6 +33,7 @@ class Email(IEmail):
         else:
             self.__receiver = receiver
 
+
     def set_sender(self, sender):
         if self.protocol == 'IM':
             self.__sender = ''.join(["I'm ", sender])
